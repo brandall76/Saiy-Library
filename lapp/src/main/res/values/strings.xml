@@ -1,0 +1,80 @@
+<!--
+  ~ Copyright (c) 2016. Saiy™ Ltd. All Rights Reserved.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as published
+  ~ by the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">Saiy Library</string>
+
+
+    <!-- Library Testing Strings -->
+    <string name="library_intro" translatable="false">"This is a remote intro"</string>
+    <string name="library_speak" translatable="false">"This is a remote speech request"</string>
+    <string name="library_speak_listen" translatable="false">"This is a remote intro and I will start listening"</string>
+    <string name="library_error" translatable="false">"The remote speech request was malformed"</string>
+
+    <!-- Permission Request Strings -->
+    <string name="permission_rationale" translatable="true">"Without these permissions, the app
+        will be unable to use TTS &amp; voice recognition features."</string>
+
+    <!-- Error Strings -->
+    <string name="error_action" translatable="true">"You have failed to correctly define the action to take.
+        Please include a defined action from the list of ACTIONs in the RemoteRequest class"</string>
+    <string name="error_provider_tts" translatable="true">"You have failed to correctly define
+        which Text to Speech provider to use. Please include a defined provider from the list
+        of PROVIDER_TTSs in the RemoteRequest class"</string>
+    <string name="error_provider_vr" translatable="true">"You have failed to correctly define
+        which Voice Recognition provider to use. Please include a defined provider from the list
+        of PROVIDER_VRs in the RemoteRequest class"</string>
+    <string name="error_api_google_chromium" translatable="true">"You have failed to include your Google API key in the SaiyConfiguration class"</string>
+    <string name="error_api_google_cloud" translatable="true">"You have failed to include your Google access token in the SaiyConfiguration class.
+        Alternatively, the token expiry time may be too short or omitted."</string>
+    <string name="error_api_nuance" translatable="true">"You have failed to include your Nuance API key in the SaiyConfiguration class"</string>
+    <string name="error_api_nuance_nlu" translatable="true">"The Nuance HOST must be set to nmsps.dev.nuance.com
+        to use Mix.nlu"</string>
+    <string name="error_api_api_ai" translatable="true">"You have failed to include your API AI credentials in the SaiyConfiguration class"</string>
+    <string name="error_api_microsoft" translatable="true">"You have failed to include your microsoft credentials in the SaiyConfiguration class"</string>
+    <string name="error_api_wit" translatable="true">"You have failed to include your Wit credentials in the SaiyConfiguration class"</string>
+    <string name="error_api_ibm" translatable="true">"You have failed to include your IBM credentials in the SaiyConfiguration class"</string>
+
+    <string name="error_utterance" translatable="true">"You haven't set the utterance to speak.
+        If you require silence, please use the constant SILENCE in the RemoteRequest class, so it is noted as deliberate"</string>
+    <string name="error_misconfigured" translatable="true">"This application cannot complete your
+        speech request."</string>
+
+    <!-- Error Logcat Strings -->
+    <string name="error_package_blacklisted" translatable="true">"Package %1$s has been blacklisted and therefore denied remote access.
+        The user can release this restriction, should they wish, from the Saiy Settings."</string>
+    <string name="error_package_name_null" translatable="true">"null package name request to remote Saiy service. Declining"</string>
+    <string name="error_throttle_limit" translatable="true">"Too many remote requests made in a short period. Declining"</string>
+    <string name="error_intent_null" translatable="true">"null intent request to remote Saiy service. Declining"</string>
+    <string name="error_saiylistener_null" translatable="true">"SaiyListener null and request is being ignored"</string>
+    <string name="error_bundle_corrupt" translatable="true">"Remote Bundle is corrupt and request is being ignored"</string>
+    <string name="error_bundle_null" translatable="true">"Remote Bundle is null. Request is being ignored"</string>
+    <string name="error_request_parcel_params_invalid" translatable="true">"Remote RequestParcel parameters are invalid. Request is being ignored"</string>
+    <string name="error_request_parcel_invalid" translatable="true">"Remote RequestParcel is invalid. Request is being ignored"</string>
+    <string name="error_requestid_invalid" translatable="true">"Request id is null or empty. Request is being ignored"</string>
+    <string name="error_utterance_invalid" translatable="true">"Utterance is null or empty. Should request SILENCE. Request is being ignored"</string>
+    <string name="error_action_invalid" translatable="true">"Unknown ACTION request is being ignored"</string>
+    <string name="error_tts_invalid" translatable="true">"Unknown Defaults.TTS request is being ignored"</string>
+    <string name="error_vr_invalid" translatable="true">"Unknown Defaults.VR request is being ignored"</string>
+    <string name="error_lm_invalid" translatable="true">"Unknown Defaults.LanguageModel request is being ignored"</string>
+    <string name="error_nuance_config" translatable="true">"NUANCE API config error - request is being ignored"</string>
+    <string name="error_microsoft_config" translatable="true">"MICROSOFT API config error - request is being ignored"</string>
+    <string name="error_api_ai_config" translatable="true">"API AI API config error - request is being ignored"</string>
+    <string name="error_google_config" translatable="true">"GOOGLE API key missing - request is being ignored"</string>
+    <string name="error_remote_config" translatable="true">"REMOTE config error - request is being ignored"</string>
+
+</resources>
