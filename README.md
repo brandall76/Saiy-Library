@@ -1,4 +1,4 @@
-# Saiy Android Library
+# Saiy® Android Library
 
 This library acts as a connector between the main Saiy application and external applications that may wish to integrate some features of Saiy - such as a tutorial for their application, or interaction with the user regarding settings and functionality.
 
