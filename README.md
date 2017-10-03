@@ -24,7 +24,7 @@ Right hand click on the app folder and select Open Module Settings. Click the gr
 
 ## License & Copyright
 
-The project is licensed under the GNU Affero General Public License V3. This is a copyleft license. See [LICENSE](https://github.com/brandall76/Saiy-PS/blob/master/LICENSE) 
+The project is licensed under the GNU Affero General Public License V3. This is a copyleft license. See [LICENSE](https://github.com/brandall76/Saiy-Library/blob/master/LICENSE) 
 
 The license grant is not for Saiy's trademarks, which include the logo designs. Saiy reserves all trademark and copyright rights in and to all [Saiy trademarks](https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00003168669?legacySearch=False).
 
