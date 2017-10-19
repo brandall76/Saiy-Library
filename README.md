@@ -43,3 +43,5 @@ Right hand click on the app folder and select Open Module Settings. Click the gr
 Please use the [Stack Overflow tag](https://stackoverflow.com/tags/saiy/info) for compiling related questions and errors.
 
 For code issues and crashes, please open an issue.
+
+For discussion, please use the [XDA development thread](https://forum.xda-developers.com/showthread.php?t=1508195) for now.
