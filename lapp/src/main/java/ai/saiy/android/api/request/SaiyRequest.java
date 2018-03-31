@@ -78,6 +78,7 @@ public class SaiyRequest {
     public static final String REMOTE_CLS_NAME = "ai.saiy.android.service.SelfAware";
     public static final String REMOTE_PKG_NAME = "ai.saiy.android";
     public static final String NUANCE_NLU_HOST = "nmsps.dev.nuance.com";
+    private static final String GOOGLE_RECOGNIZER_PACKAGE = "com.google.android.googlequicksearchbox";
 
     private static final String _YOUR_ = "_your_";
 
@@ -278,6 +279,7 @@ public class SaiyRequest {
         if (size > 0) {
 
             final Intent vrIntent = new Intent(RecognizerIntent.ACTION_GET_LANGUAGE_DETAILS);
+            vrIntent.setPackage(GOOGLE_RECOGNIZER_PACKAGE);
             wContext.get().sendOrderedBroadcast(vrIntent, null, new BroadcastReceiver() {
                 @Override
                 public void onReceive(final Context context, final Intent intent) {
