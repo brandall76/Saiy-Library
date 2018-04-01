@@ -119,6 +119,7 @@ public class SaiyKeyphrase {
      * may be subsequently rejected. This final response will be received
      * in {@link SaiyKeyphraseListener#onEnrollKeyphrase(int, int)}
      */
+    @SuppressWarnings("ConstantConditions")
     public boolean sendRequest(final int requestId) {
 
         if (validateRequest()) {
@@ -167,6 +168,7 @@ public class SaiyKeyphrase {
         }
     }
 
+    @SuppressWarnings("ConstantConditions")
     private boolean validateRequest() {
 
         if (mContext == null) {

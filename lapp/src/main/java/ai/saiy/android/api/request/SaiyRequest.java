@@ -152,6 +152,7 @@ public class SaiyRequest {
             public void run() {
                 android.os.Process.setThreadPriority(Process.THREAD_PRIORITY_LESS_FAVORABLE);
 
+                //noinspection NonAtomicOperationOnVolatileField
                 tts = new TextToSpeech(wContext.get(), new TextToSpeech.OnInitListener() {
                     @Override
                     public void onInit(final int status) {

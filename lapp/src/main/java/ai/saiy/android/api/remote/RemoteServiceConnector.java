@@ -120,6 +120,7 @@ public class RemoteServiceConnector {
 
     private ISaiyListener.Stub iSaiyListener = new ISaiyListener.Stub() {
 
+        @SuppressWarnings("RedundantThrows")
         @Override
         public void onSpeechResults(final Bundle results, String requestId) throws RemoteException {
             if (DEBUG) {
@@ -152,6 +153,7 @@ public class RemoteServiceConnector {
         }
 
         @Override
+        @SuppressWarnings("RedundantThrows")
         public void onError(final String error, String requestId) throws RemoteException {
             if (DEBUG) {
                 Log.d(CLS_NAME, "onError: id: " + requestId);
@@ -163,6 +165,7 @@ public class RemoteServiceConnector {
         }
 
         @Override
+        @SuppressWarnings("RedundantThrows")
         public void onUtteranceCompleted(String requestId) throws RemoteException {
             if (DEBUG) {
                 Log.d(CLS_NAME, "onUtteranceCompleted: " + requestId);
